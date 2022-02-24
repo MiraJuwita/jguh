@@ -13,48 +13,48 @@ int main ()
 	cout<<"\nb = 15"<<endl;
 	cout <<"nNilai b = " <<b<< endl;
 	
-    c = 27 ;
+	c = 27;
 	cout<<"\nc = 27"<<endl;
-	cout <<"Nilai c = " <<c<< endl;
-
-    p1 = &a ;
-    cout<<"\np1 = &a"<<endl;
-    cout<<"Nilai &a = "<<&a<< endl;
-    cout<<"Nilai p1 = "<<p1<< endl;
+	cout <<"nNilai c = " <<c<< endl;
     
-    p2 = &b ;
-    cout<<"\np2 = &b"<<endl;
-    cout<<"Nilai &b = "<<&b<< endl;
-    cout<<"Nilai p2 = "<<p2<< endl;
+	p1 = &a;
+	cout<<"\np1 = &a"<<endl;
+	cout<<"Nilai &a = "<<&a<< endl;
+	cout<<"nilai p1 = "<<p1<< endl;
+    
+	p2 = &b;
+	cout<<"\np2 = &b"<<endl;
+	cout<<"Nilai &b = "<<&b<< endl;
+	cout<<"Nilai p2 = "<<p2<< endl;
 	
-    *p1 = c ;
-    cout<<"\np1 = c"<<endl;
-    cout <<"Nilai c = " <<c<< endl;
-    cout <<"Nilai *p1 = " <<*p1<< endl;
-    
-    a = *p2 ;
-    cout<<"\na = *p2"<<endl;
-    cout <<"Nilai *p2 = " <<*p2<< endl;
-    cout <<"Nilai *p1 = " <<*p1<< endl;
+	*p1 = &c;
+	cout<<"\np1 = &c"<<endl;
+	cout <<"Nilai &c = " <<&c<< endl;
+	cout <<"Nilai *p1 = " <<*p1<< endl;
 
-    b = 6 ;
-    cout<<"\nb = 6"<< endl;
-    cout<<"Nilai b = "<<b<< endl;
+	a = *p2;
+	cout<<"\na = *p2"<< endl;
+	cout<<"Nilai *p2 = "<<*p1<< endl;
+	cout<<"Nilai a = "<<a<< endl;
+	
+	b = 6;
+	cout<<"\nb = 6"<< endl;
+	cout<<"Nilai b = "<<b<< endl;
 
-    p3 = &b ;
+	p3 = &b;
 	cout<<"\np3 = &b"<<endl;
-    cout <<"Nilai b = " <<b<< endl;
-    cout <<"Nilai p3 = " <<*p3<< endl;
+	cout <<"nNilai &b = " <<&b<< endl;
+	cout <<"Nilai p3 = " <<*p3<< endl;
+	
+	p3 = &c;
+	cout<<"\np3 = &c"<<endl;
+	cout <<"nNilai &c = " <<&c<< endl;
+	cout <<"Nilai p3 = " <<*p3<< endl;
     
-    p3 = &c ;
-    cout<<"\np3 = &c"<<endl;
-    cout <<"Nilai c = " <<c<< endl;
-    cout <<"Nilai p3 = " <<*p3<< endl;
-    
-    *p1 = *p3 ;
-    cout<<"\n*p1 = *p3"<<endl;
-    cout <<"Nilai *p3 = " <<*p3<< endl;
-    cout <<"Nilai *p1 = " <<*p1<< endl;
+	*p1 = *p3;
+	cout<<"\n*p1 = *p3"<<endl;
+	cout <<"Nilai *p3 = " <<*p3<< endl;
+	cout <<"Nilai *p1 = " <<*p1<< endl;
     
 return 0;
 }
